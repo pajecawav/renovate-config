@@ -3,7 +3,7 @@
 	"extends": ["config:base", "group:allNonMajor"],
 	"rangeStrategy": "bump",
 	"npm": {
-		"stabilityDays": 3
+		"minimumReleaseAge": "2 days"
 	},
 	"timezone": "Europe/Moscow",
 	"schedule": ["before 9am on saturday"]
